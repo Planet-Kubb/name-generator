@@ -2,10 +2,8 @@
 <head>
   <title>Planet Kubb Team Name Generator</title>
 
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="description" content="Planet Kubb Team Name Generator!" />
 	<link href="/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
 	<link href="/css/rivers.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
