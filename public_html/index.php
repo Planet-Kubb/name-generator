@@ -44,6 +44,8 @@
         <h4><a href="http://planetkubb.com/">Planet Kubb</a></h4>
         <h4><a href="http://ask.planetkubb.com/">Ask Planet Kubb</a></h4>
         <h5><a href="http://wiki.planetkubb.com/">Planet Kubb Wiki</a></h4>
+        <br/>
+        <h6>Want to improve the name generator? <a href="https://github.com/thingles/Planet-Kubb-Name-Generator">The code is on Github!</a></h6>
       </div>
       <div class="span4">
         <img src="/img/160px-Planetkubb-trans.png" widht="160" height="160" />
