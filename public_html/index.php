@@ -43,15 +43,15 @@
         <br/>
         <h4><a href="http://planetkubb.com/">Planet Kubb</a></h4>
         <h4><a href="http://ask.planetkubb.com/">Ask Planet Kubb</a></h4>
-        <h5><a href="http://wiki.planetkubb.com/">Planet Kubb Wiki</a></h4>
-        <br/>
-        <h6>Want to improve the name generator? <a href="https://github.com/thingles/Planet-Kubb-Name-Generator">The code is on Github!</a></h6>
+        <h4><a href="http://wiki.planetkubb.com/">Planet Kubb Wiki</a></h4>
       </div>
       <div class="span4">
         <img src="/img/160px-Planetkubb-trans.png" widht="160" height="160" />
       </div>
     </div>
   </div>
+
+<a href="http://github.com/thingles/Planet-Kubb-Name-Generator"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
 
 <!-- Piwik --> 
 <script type="text/javascript">
