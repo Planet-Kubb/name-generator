@@ -41,9 +41,9 @@
       <div class="span8">
         <h3>Planet Kubb Team Name Generator v1.0</h3>
         <br/>
-        <h4><a href="http://planetkubb.com/">Planet Kubb</a></h4>
-        <h4><a href="http://ask.planetkubb.com/">Ask Planet Kubb</a></h4>
-        <h4><a href="http://wiki.planetkubb.com/">Planet Kubb Wiki</a></h4>
+        <h4><a href="http://planetkubb.com/?pk_campaign=Planet-Kubb-Name-Generator">Planet Kubb</a></h4>
+        <h4><a href="http://ask.planetkubb.com/?pk_campaign=Planet-Kubb-Name-Generator">Ask Planet Kubb</a></h4>
+        <h4><a href="http://wiki.planetkubb.com/?pk_campaign=Planet-Kubb-Name-Generator">Planet Kubb Wiki</a></h4>
       </div>
       <div class="span4">
         <img src="/img/160px-Planetkubb-trans.png" widht="160" height="160" />
