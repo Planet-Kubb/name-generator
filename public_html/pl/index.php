@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Planet Kubb Team Name Generator</title>
+	<title>Planet Kubb Team Name Generator (pl)</title>
 
 	<meta name="description" content="Planet Kubb Team Name Generator!" />
 	<link href="../css/bootstrap.min.css" rel="stylesheet" />
