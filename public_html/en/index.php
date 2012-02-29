@@ -10,17 +10,11 @@
 </head>
 <body bgcolor="#FFFFFF">
 <div class="container">
-	<div class="row-fluid">
-		<div class="alert alert-info">
-			<strong>Want to create the Dutch team name generator?</strong> <a href="https://github.com/thingles/Planet-Kubb-Name-Generator">Fork the code on Github</a> and issue a pull request when you have it ready!
-		</div>
-	</div>
 
 	<div class="row-fluid">
 		<header class="jumbotron subhead">
 
 <?
-	/*
 	$adj_array = file("adjs");
 	$noun_array = file("kubbs");
 
@@ -30,9 +24,7 @@
 	$nrnd = rand(0,sizeof($noun_array)-1);
 
 	$name = chop($adj_array[$arnd]) . " " . chop($noun_array[$nrnd]);
-	*/
 
-	$name = "Spreek je Nederlands?";
 	print "<h1>$name</h1>";
 ?>
 
@@ -41,10 +33,12 @@
 	<div style="height: 20px;" ></div>
 	<div class="row-fluid">
 		<div class="span6">
-			<a class="btn btn-large btn-primary disabled" href="#">Try again</a>
+			<a class="btn btn-primary btn-large" href="#" onClick="window.location.reload(true);">Try again</a>
 		</div>
 		<div style="text-align: right;">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://name.planetkubb.com/" data-text="<?php echo $name; ?>" data-via="PlanetKubb" data-size="large" data-related="PlanetKubb" data-hashtags="kubb">Tweet</a>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://name.planetkubb.com/"
+			data-text="<?php echo $name; ?> Kubb Team name!" data-via="PlanetKubb" data-size="large" data-related="PlanetKubb"
+			data-hashtags="kubb">Tweet</a>
 		</div>
 	</div>
 	<div style="height: 100px;"></div>
@@ -66,11 +60,11 @@
 	<div class="row-fluid">
 		<ul class="nav nav-pills">
 			<li><a href="../de">Deutsch</a></li>
-			<li><a href="../en" >English</a></li>
+			<li class="active"><a href="../en" >English</a></li>
 			<li><a href="../es">Espa&ntilde;ol</a></li>
 			<li><a href="../fr">Fran&ccedil;ais</a></li>
 			<li><a href="../it">Italiano</a></li>
-			<li class="active"><a href="../nl">Dutch</a></li>
+			<li><a href="../nl">Dutch</a></li>
 			<li><a href="../no">Norsk</a></li>
 			<li><a href="../pl">Polski</a></li>
 		</div>

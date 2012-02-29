@@ -12,7 +12,7 @@
 <div class="container">
 	<div class="row-fluid">
 		<div class="alert alert-info">
-			<strong>Want to create the Dutch team name generator?</strong> <a href="https://github.com/thingles/Planet-Kubb-Name-Generator">Fork the code on Github</a> and issue a pull request when you have it ready!
+			<strong>Want to create the Fran&ccedil;ais team name generator?</strong> <a href="https://github.com/thingles/Planet-Kubb-Name-Generator">Fork the code on Github</a> and issue a pull request when you have it ready!
 		</div>
 	</div>
 
@@ -32,7 +32,7 @@
 	$name = chop($adj_array[$arnd]) . " " . chop($noun_array[$nrnd]);
 	*/
 
-	$name = "Spreek je Nederlands?";
+	$name = "Parles-tu Fran&ccedil;ais?";
 	print "<h1>$name</h1>";
 ?>
 
@@ -68,9 +68,9 @@
 			<li><a href="../de">Deutsch</a></li>
 			<li><a href="../en" >English</a></li>
 			<li><a href="../es">Espa&ntilde;ol</a></li>
-			<li><a href="../fr">Fran&ccedil;ais</a></li>
+			<li class="active"><a href="../fr">Fran&ccedil;ais</a></li>
 			<li><a href="../it">Italiano</a></li>
-			<li class="active"><a href="../nl">Dutch</a></li>
+			<li><a href="../nl">Dutch</a></li>
 			<li><a href="../no">Norsk</a></li>
 			<li><a href="../pl">Polski</a></li>
 		</div>
