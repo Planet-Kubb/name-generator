@@ -10,7 +10,7 @@
 </head>
 <body bgcolor="#FFFFFF">
   <div class="container">
-    <div class="row">
+    <div class="row-fluid">
       <header class="jumbotron subhead">
 
 <?
@@ -35,7 +35,7 @@
       </header>
     </div>
     <div style="height: 100px;"></div>
-    <div class="row">
+    <div class="row-fluid">
       <div class="span8">
         <h3>Planet Kubb Team Name Generator v1.0</h3>
         <br/>
