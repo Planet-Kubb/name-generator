@@ -14,7 +14,7 @@
 	<div class="row-fluid">
 		<header class="jumbotron subhead">
 
-<?
+<?php
 	$adj_array = file("adjs");
 	$noun_array = file("kubbs");
 
