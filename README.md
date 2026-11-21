@@ -1,5 +1,18 @@
 # Planet Kubb Name Generator
 
+> **Archived on 2026-11-21.** This repository is kept as it was and takes no more changes.
+> The page is not hosted anywhere, and its old address, name.planetkubb.com, no longer
+> resolves.
+>
+> Its idea carries on in [Kubb: Throwing Wood](https://throwingwood.com), whose players
+> and teams get generated names instead of typing their own. The words and the rules are in
+> the [Kubb Engine](https://github.com/jthingelstad/kubb-engine): `core/namewords.lua` and
+> `docs/NAMES.md`. The engine's adjective list begins with this one, and its team nouns keep the best of
+> the "-kubb" blends below.
+>
+> Do not reuse the English `kubbs` list as it is. It was made by machine from a dictionary
+> (see "Name Generation" below), and some of its blends are crude.
+
 The [Planet Kubb](http://planetkubb.com/) Name Generator is a fun web site that generates goofy names for Kubb teams.
 
 ## How to Use This
