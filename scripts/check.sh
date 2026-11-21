@@ -18,7 +18,10 @@ else
   echo "skip  php -l (php is not installed here)"
 fi
 
-if grep -rnE '<\?($|[^p=x])' public_html --include='*.php'; then
+# Allowed: <?php followed by a space or the line end, <?= and <?xml. Any
+# other <? (<?print, <?phpinfo, a bare <?) is a short tag.
+short='<\?(?!php(?:\s|$)|=|xml\s)'
+if find public_html -name '*.php' -exec perl -ne "print \"\$ARGV:\$.: \$_\" if /$short/i; close ARGV if eof" {} + | grep .; then
   bad "short PHP open tags above: write <?php"
 fi
 
