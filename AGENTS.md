@@ -1,4 +1,4 @@
-# Agent guide: name-generator
+# Agent guide: pk-name-generator
 
 The Planet Kubb Name Generator: a small PHP page that makes goofy Kubb team names by putting a
 random line of `adjs` in front of a random line of `kubbs`. `README.md` says how the English
@@ -6,8 +6,9 @@ lists were made. This file holds the rules and what is still open.
 
 ## Status (2026-11-21)
 
-- Public repo `Planet-Kubb/name-generator`, last changed in 2012 and cloned into the Throwing
-  Wood workstream on 2026-11-21. Claude owns and maintains it, design included (Jamie,
+- Public repo `Planet-Kubb/pk-name-generator`, last changed in 2012. It joined the Throwing Wood
+  workstream on 2026-11-21 and was renamed from `name-generator` the same day, with the `pk-`
+  prefix of its sibling `pk-kubb-score`; the old URL redirects. Claude owns and maintains it, design included (Jamie,
   2026-11-21). Hosting, domain and the page's analytics stay Jamie's call; it is not known to be
   deployed anywhere today.
 - Only English has word lists. de, es, fr, it, nl, no and pl are placeholders that ask for
