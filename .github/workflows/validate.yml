@@ -1,0 +1,35 @@
+name: validate
+
+# The repo's check (scripts/check.sh): every page lints under PHP and uses
+# <?php, and every language folder has its adjs and kubbs word lists. The
+# job's name is the check a master ruleset would require: rename them
+# together.
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+# A new push to a PR supersedes its running check; master's runs finish.
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+# No default token permissions; the job asks for its own. Actions are pinned
+# to commit SHAs and checkout leaves no token behind.
+permissions: {}
+
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: PHP is there
+        run: php --version
+      - name: check
+        run: scripts/check.sh
